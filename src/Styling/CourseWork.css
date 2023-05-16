@@ -1,0 +1,40 @@
+.course-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+  }
+  
+  .course-work h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #7f8cca;
+    margin-bottom: 15px;
+    margin-top: 5px;
+  }
+  
+  .course-work p {
+    font-size: 20px;
+    font-weight: normal;
+    color: #d0e1f9;
+    margin-bottom: 12px;
+  }
+
+  .course-work-intro {
+    text-align: center;
+  }
+
+  .certification ul {
+    font-size: 17.5px;
+    font-weight: normal;
+    color: #4d648d;
+    margin-bottom: 12px;
+  }
+
+  .certification ul ul {
+    margin-left: 20px;
+  }
+
+  .certification {
+    padding-bottom: 75px;
+  }

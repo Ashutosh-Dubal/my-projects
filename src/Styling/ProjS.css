@@ -1,0 +1,28 @@
+.container-Paper p {
+    line-height: 1.75;
+    margin-bottom: 1em;
+}
+
+.container-Paper h1 {
+    line-height: 1.5;
+}
+
+.container-Paper h2, h3 {
+    line-height: 2;
+}
+
+.btn-pdf {
+    background-color: #4D648D;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 1;
+  }
+  
+  .btn-pdf:hover {
+    background-color: #283655;
+    color: white;
+    z-index: 1;
+  }

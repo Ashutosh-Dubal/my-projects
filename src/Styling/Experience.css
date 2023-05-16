@@ -1,0 +1,81 @@
+.experience {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+.sidebar {
+  flex: 0 0 20%;
+  background-color: #1E1F26;
+  padding: 1rem;
+  position: fixed;
+  width: 260px;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  z-index: 1;
+}
+  
+  .tiles-container {
+    flex: 1;
+    padding: 4rem;
+    padding-left: 300px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    transition: padding-left 0.3s ease-in-out;
+    font-family: "Open Sans", sans-serif;
+    z-index: 0;
+  }
+  
+  .tile {
+    width: 225px;
+    background-color: #4D648D;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tile:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tile-header {
+    padding: 1rem;
+  }
+
+  .certifications h4 {
+    padding-top: 25px;
+    line-height: 2;
+  }
+
+  .certifications li {
+    
+    list-style-position: inside;
+    margin-left: 20px;
+  }
+
+  .certification ul ul {
+    margin-left: 20px;
+  }
+  
+  .skills-whole{
+    line-height: 2;
+  }
+
+  .skills {
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+  }
+
+  .skill-meter {
+    background-color: #4D648D;
+    height: 100%;
+    border-radius: 5px;
+  }

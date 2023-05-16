@@ -1,0 +1,41 @@
+.show-more-button {
+    background-color: #000000;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block; 
+    background-color: transparent;
+    margin: 0 auto;
+  }
+
+  .content {
+    color: #d0e1f9;
+  }
+  
+  .show-more-button:hover {
+    background-color: #4c5a81;
+  }
+  
+  .show-more-button:active {
+    background-color: #4c5a81;
+  }
+  
+  .show-more-button[aria-expanded='true']::after {
+    content: "▲";
+  }
+  
+  .show-more-button[aria-expanded='false']::after {
+    content: "▼";
+  }
+
+  .google-drive-button {
+    background-color: #1985f1;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+  }

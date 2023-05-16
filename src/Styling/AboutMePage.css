@@ -1,0 +1,39 @@
+
+.about-me-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+h1, h2 {
+    color: #4D648D;
+    text-align: center;
+}
+
+a {
+    color: #283655;
+}
+  
+a:hover {
+    color: #D0E1F9;
+}
+  
+p {
+    font-size: 24px;
+    font-weight: normal;
+    color: #D0E1F9;
+    margin-bottom: 12px;
+}
+
+body {
+    background-color: #1E1F26;
+}
+
+@media (max-width: 600px) {
+    .about-me-page {
+      padding: 20px;
+    }
+}
