@@ -19,9 +19,6 @@ import WebDev from '../routes/web-dev';
 import DataAnalytics from '../routes/data-analytics';
 import Mathematical from '../routes/mathematical';
 import CourseWork from '../routes/course-work';
-import MathPaper1 from '../routes/mathproj1';
-import MathPaper2 from '../routes/mathproj2';
-import Dataproj1 from '../routes/dataProj1';
 import Interests from '../routes/Interests';
 
 function App() {
@@ -46,12 +43,8 @@ function App() {
 
           <Route path="projects/*" element={<Projects />} />
           <Route path="projects/web-dev" element={<WebDev />} />
-          <Route path="projects/data-analytics/*" element={<DataAnalytics />} />
-          <Route path="projects/data-analytics/dataproj1" element={< Dataproj1 />} />
-
-          <Route path="projects/mathematical/*" element={<Mathematical />} />
-          <Route path="projects/mathematical/mathproj1" element={<MathPaper1 />} />
-          <Route path="projects/mathematical/mathproj2" element={<MathPaper2 />} />
+          <Route path="projects/data-analytics" element={<DataAnalytics />} />
+          <Route path="projects/mathematical" element={<Mathematical />} />
           
 
           <Route path="course-work" element={<CourseWork />} />
