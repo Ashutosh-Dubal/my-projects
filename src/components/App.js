@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Layout />} >
+        <Route path="/my-projects" element={<Layout />} >
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           
@@ -46,7 +46,6 @@ function App() {
           <Route path="projects/data-analytics" element={<DataAnalytics />} />
           <Route path="projects/mathematical" element={<Mathematical />} />
           
-
           <Route path="course-work" element={<CourseWork />} />
         </Route>
       </Routes>
