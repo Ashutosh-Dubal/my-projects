@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-projects/static/css/main.f3c03b6e.css",
+    "main.css": "/my-projects/static/css/main.164e5c3b.css",
     "main.js": "/my-projects/static/js/main.0052d42c.js",
     "static/media/open-sans-latin-800.woff": "/my-projects/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
     "static/media/open-sans-latin-700.woff": "/my-projects/static/media/open-sans-latin-700.f24f4bcef8a4a0eb6345.woff",
@@ -23,11 +23,11 @@
     "static/media/open-sans-latin-600italic.woff2": "/my-projects/static/media/open-sans-latin-600italic.cc4bf5b2955147801c02.woff2",
     "static/media/open-sans-latin-400italic.woff2": "/my-projects/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/my-projects/index.html",
-    "main.f3c03b6e.css.map": "/my-projects/static/css/main.f3c03b6e.css.map",
+    "main.164e5c3b.css.map": "/my-projects/static/css/main.164e5c3b.css.map",
     "main.0052d42c.js.map": "/my-projects/static/js/main.0052d42c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c03b6e.css",
+    "static/css/main.164e5c3b.css",
     "static/js/main.0052d42c.js"
   ]
 }
