@@ -31,9 +31,3 @@ p {
 body {
     background-color: #1E1F26;
 }
-
-@media (max-width: 600px) {
-    .about-me-page {
-      padding: 20px;
-    }
-}
