@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div className="nav-area">
-                <Link to="/" className="logo">
+                <Link className="logo">
                     Ashutosh Dubal
                 </Link>
                 <Navbar />

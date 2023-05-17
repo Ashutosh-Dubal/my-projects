@@ -27,7 +27,7 @@ export const menuItems = [
     },
     {
         title: 'Interests',
-        url: 'interests',
+        url: '',
         submenu: [
             {
                 title: 'Books',

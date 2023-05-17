@@ -19,7 +19,6 @@ import WebDev from '../routes/web-dev';
 import DataAnalytics from '../routes/data-analytics';
 import Mathematical from '../routes/mathematical';
 import CourseWork from '../routes/course-work';
-import Interests from '../routes/Interests';
 
 function App() {
 
@@ -30,7 +29,6 @@ function App() {
           <Route index element={<HomePage />} />
           <Route path="about" element={<AboutPage />} />
           
-          <Route path="interests" element={<Interests />} />
           <Route path="books" element={<Books />} />
           <Route path="video-games" element={<VideoGames />} />
           
