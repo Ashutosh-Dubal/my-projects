@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-projects/static/css/main.164e5c3b.css",
-    "main.js": "/my-projects/static/js/main.0052d42c.js",
+    "main.js": "/my-projects/static/js/main.a773f2d4.js",
     "static/media/open-sans-latin-800.woff": "/my-projects/static/media/open-sans-latin-800.8ab0bbdd48f276f4ba56.woff",
     "static/media/open-sans-latin-700.woff": "/my-projects/static/media/open-sans-latin-700.f24f4bcef8a4a0eb6345.woff",
     "static/media/open-sans-latin-600.woff": "/my-projects/static/media/open-sans-latin-600.7e06644bbdc83069cec8.woff",
@@ -24,10 +24,10 @@
     "static/media/open-sans-latin-400italic.woff2": "/my-projects/static/media/open-sans-latin-400italic.bb915319f59c02c348a6.woff2",
     "index.html": "/my-projects/index.html",
     "main.164e5c3b.css.map": "/my-projects/static/css/main.164e5c3b.css.map",
-    "main.0052d42c.js.map": "/my-projects/static/js/main.0052d42c.js.map"
+    "main.a773f2d4.js.map": "/my-projects/static/js/main.a773f2d4.js.map"
   },
   "entrypoints": [
     "static/css/main.164e5c3b.css",
-    "static/js/main.0052d42c.js"
+    "static/js/main.a773f2d4.js"
   ]
 }
