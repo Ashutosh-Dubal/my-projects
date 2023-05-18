@@ -5,7 +5,7 @@ export const menuItems = [
     },
     {
         title: 'About',
-        url: 'about',
+        url: '',
         submenu: [
             {
               title: 'Projects',
