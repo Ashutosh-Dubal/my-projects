@@ -97,21 +97,23 @@ const CourseWork = () => {
         <div className="certification">
           <h1>Certifications</h1>
           <ul>
-            <li>Google Data Analytics by Google.
+            <li><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/VD2WSVT3FPCA" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Google Data Analytics by Google.</a>
               <ul>
-                <li>Share Data Through the Art of Visualization.</li>
-                <li>Ask Questions to Make Data-Driven Decisions.</li>
-                <li>Data Analysis with R Programming</li>
-                <li>Analyze Data to Answer Questions</li>
-                <li>Prepare Data for Exploration</li>
-                <li>Process Data from Dirty to Clean</li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/HJJGSYM54DL8" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Share Data Through the Art of Visualization.</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/TXY3ETE5FHGH" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Ask Questions to Make Data-Driven Decisions.</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/L6KXTGE3LVA8" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Data Analysis with R Programming</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/NHP496JT3GZB" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Analyze Data to Answer Questions</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/P9RGJX33BFUY" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Prepare Data for Exploration</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/UBUQPBNNBJUU" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Process Data from Dirty to Clean</a></li>
               </ul>
             </li>
             
             <li>IBM Data Science</li>
               <ul>
-                <li>What is Data Science?</li>
-                <li>Python for Data Science, AI and Development</li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/U9QS79HD4NJS" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>What is Data Science?</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/J8RUXXNVGHPD" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Python for Data Science, AI and Development</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/EMC64MPE9JC7" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Python project for Data Science</a></li>
+                <li><a href="https://www.coursera.org/account/accomplishments/certificate/AWL45WH7B9ER" target="_blank" rel="noopener noreferrer" style={{ color: '#d0e1f9', textDecoration: 'underline' }}>Data Science methodology</a></li>
               </ul>
            </ul>
         </div>
