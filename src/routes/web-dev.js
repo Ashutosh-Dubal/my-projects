@@ -11,7 +11,7 @@ const WebDev = () => {
         </ol>
 
         
-        <a href="http://localhost:3000/contact-me" rel="noreferrer" style={{ color: 'white' }}>Link to contact me</a>
+        <a href="http://adubal/contact-me" rel="noreferrer" style={{ color: 'white' }}>Link to contact me</a>
       </div>
     );
   };
