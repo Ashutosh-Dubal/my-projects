@@ -2,7 +2,7 @@ import React from 'react';
 import '../Styling/jobPage.css';
 
 const InfosysJob = () => {
-  const skills = ['Java', 'C/C++', 'Python', 'JavaScript', 'SQL', 'HTML', 'Jira', 'Maven', 'Java Database Connectivity (JDBC)', 'Jenkins', 'Junit', 'TestNG', 'Selenium', 'ReactJS', 'NodeJS', 'OOP', 'SDLC', 'Problem Solving', 'Aglie Methodologies'];
+  const skills = ['Java', 'C/C++', 'Python', 'JavaScript', 'SQL', 'HTML', 'CSS', 'RStudio', 'Jira', 'Maven', 'Java Database Connectivity (JDBC)', 'Jenkins', 'Junit', 'TestNG', 'Selenium', 'ReactJS', 'NodeJS', 'OOP', 'SDLC', 'Problem Solving', 'Aglie Methodologies'];
 
   return (
     <div className='job-page'>
@@ -18,8 +18,8 @@ const InfosysJob = () => {
           <li>Proficiently skilled in the art of object-oriented programming, data structures, algorithms, and the complete software development life cycle (SDLC), including requirements gathering, design, development, testing, deployment, and maintenance.</li>
           <li>Extensive experience in conducting multiple types of testing, including unit, integration, system, and user acceptance testing (UAT), allowing for full-spectrum testing coverage.</li>
           <li>Possessing an in-depth understanding of web application development and the mastery of the fundamental concepts, including design patterns, frameworks, and principles.</li>
+          <li>Designed and developed an in-house application using React for the frontend and Java Spring Boot for the backend. The application aimed to streamline the process of sorting new hires for managers, facilitating efficient candidate management and onboarding procedures. By leveraging my expertise in front-end development with React and back-end development with Java Spring Boot, I successfully delivered a user-friendly and robust application that enhanced the hiring workflow.</li>
           <li>Developing comprehensive test plans and test cases for new applications to identify all issues, providing valuable feedback for developers to improve the overall quality of the product.</li>
-          <li>Demonstrating a willingness to learn and adapt to new technologies, including mastering ReactJS and NodeJS for front-end development.</li>
         </ul>
       </div>
 
