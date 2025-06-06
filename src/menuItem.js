@@ -21,7 +21,7 @@ export const menuItems = [
             },
             {
               title: 'Contact me',
-              url: 'contact-me',
+              url: 'tempContactMe',
             },
           ],
     },

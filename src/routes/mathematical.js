@@ -10,12 +10,6 @@ const Math = ({ title, content, pdfLink }) => {
         <h3>{title}</h3>
       </li>
       <p>{expanded ? content : `${content.slice(0, 200)}...`}</p>
-      <button
-        className="show-more-button"
-        onClick={() => setExpanded(!expanded)}
-      >
-        {expanded ? "Show less ▲" : "Show more ▼"}
-      </button>
       {expanded && (
       <button
         className="google-drive-button"
@@ -24,6 +18,12 @@ const Math = ({ title, content, pdfLink }) => {
         PDF
       </button>
     )}
+      <button
+        className="show-more-button"
+        onClick={() => setExpanded(!expanded)}
+      >
+        {expanded ? "Show less ▲" : "Show more ▼"}
+      </button>
     </div>
   );
 };

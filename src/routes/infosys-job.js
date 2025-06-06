@@ -2,24 +2,26 @@ import React from 'react';
 import '../Styling/jobPage.css';
 
 const InfosysJob = () => {
-  const skills = ['Java', 'C/C++', 'Python', 'JavaScript', 'SQL', 'HTML', 'CSS', 'RStudio', 'Jira', 'Maven', 'Java Database Connectivity (JDBC)', 'Jenkins', 'Junit', 'TestNG', 'Selenium', 'ReactJS', 'NodeJS', 'OOP', 'SDLC', 'Problem Solving', 'Aglie Methodologies'];
+  const skills = ['Java', 'C/C++', 'Python', 'JavaScript', 'SQL', 'HTML', 'CSS', 'RStudio', 'Jira', 'Maven', 'Java Database Connectivity (JDBC)', 'Jenkins', 'Junit', 'TestNG', 'Selenium', 'ReactJS', 'NodeJS', 'OOP', 'SDLC', 'Problem Solving', 'Aglie Methodologies', 'Sauce Labs'];
 
   return (
     <div className='job-page'>
       
       <div className='title'>
-        <h1>Assocate Software Developer</h1>
+        <h1>Senior Assocate Software Developer</h1>
         <h2>At Infosys</h2>
       </div>
       
       <div className='body'>
         <ul>
-          <li>Possessing multiple industry-recognized certifications in prominent technologies such as Java, SQL, Jenkins, Junit, TestNG, and Selenium, demonstrating a high level of expertise in these areas.</li>
-          <li>Proficiently skilled in the art of object-oriented programming, data structures, algorithms, and the complete software development life cycle (SDLC), including requirements gathering, design, development, testing, deployment, and maintenance.</li>
-          <li>Extensive experience in conducting multiple types of testing, including unit, integration, system, and user acceptance testing (UAT), allowing for full-spectrum testing coverage.</li>
-          <li>Possessing an in-depth understanding of web application development and the mastery of the fundamental concepts, including design patterns, frameworks, and principles.</li>
-          <li>Designed and developed an in-house application using React for the frontend and Java Spring Boot for the backend. The application aimed to streamline the process of sorting new hires for managers, facilitating efficient candidate management and onboarding procedures. By leveraging my expertise in front-end development with React and back-end development with Java Spring Boot, I successfully delivered a user-friendly and robust application that enhanced the hiring workflow.</li>
-          <li>Developing comprehensive test plans and test cases for new applications to identify all issues, providing valuable feedback for developers to improve the overall quality of the product.</li>
+          <li>Developed and maintained scalable software applications using Java Spring Boot and Node.js, with a focus on performance, modularity, and maintainability in enterprise-level environments.</li>
+          <li>Spearheaded front-end development using React.js and JavaScript, implementing responsive and accessible UI/UX designs aligned with HTML5, CSS3, and modern web standards.</li>
+          <li>Engineered secure, RESTful APIs and backend systems with Java Spring Boot, Node.js, and Express.js, integrating with both relational (MySQL) and non-relational databases to support seamless data flow and transaction management.</li>
+          <li>Utilized Git for version control and Maven for build automation, integrating CI/CD practices through Jenkins pipelines to accelerate development and deployment cycles.</li>
+          <li>Collaborated in Agile Scrum teams, participating in sprint planning, daily stand-ups, and retrospectives using tools like JIRA to ensure eﬀective project tracking and delivery.</li>
+          <li>Developed automated testing scripts for APIs and UIs using Maven and Insomnia, enhancing code reliability and reducing manual QA cycles.</li>
+          <li>Contributed to technical decision-making, aligning software architecture with business goals, and ensuring clean, maintainable code across projects.</li>
+          <li>Demonstrated strong understanding of internet technologies including HTML5, CSS3, jQuery, JavaScript, and React.</li>
         </ul>
       </div>
 

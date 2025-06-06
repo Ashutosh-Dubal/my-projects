@@ -10,12 +10,6 @@ const Data = ({ title, content, pdfLink }) => {
           <h3>{title}</h3>
         </li>
         <p>{expanded ? content : `${content.slice(0, 200)}...`}</p>
-        <button
-          className="show-more-button"
-          onClick={() => setExpanded(!expanded)}
-        >
-          {expanded ? "Show less ▲" : "Show more ▼"}
-        </button>
         {expanded && (
         <button
           className="google-drive-button"
@@ -24,14 +18,26 @@ const Data = ({ title, content, pdfLink }) => {
           GitHub
         </button>
       )}
+        <button
+          className="show-more-button"
+          onClick={() => setExpanded(!expanded)}
+        >
+          {expanded ? "Show less ▲" : "Show more ▼"}
+        </button>
       </div>
     );
   };
   
-  const DataAnalytics = () => {
+  const DataScience = () => {
     return (
       <div className="show-more">
         <ol>
+          <Data
+                title="IMDb Top TV Shows Scraper"
+                content={'This Python project scrapes IMDb\'s Top Rated TV Shows, extracts key information like title, year, rating, and genres, and saves the data to a CSV file for further analysis or use in other projects.'}
+                pdfLink='https://github.com/Ashutosh-Dubal/imdb-tv-show-scraper'
+          />
+
           <Data
             title="Regression Analysis of CDC Guidelines on Muscle-Strengthening Activity"
             content={`Adult obesity has been a long and growing issue in the United States 
@@ -55,4 +61,4 @@ const Data = ({ title, content, pdfLink }) => {
     );
   };
 
-export default DataAnalytics;
+export default DataScience;

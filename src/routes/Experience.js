@@ -11,7 +11,7 @@ const Experience = () => {
         {
             title: 'Assocate Developer',
             company: 'Infosys',
-            date: 'June 2022',
+            date: '2022 - 2025',
             content: 'This is content for tile 1',
             path: './infosys-job',
         },
@@ -57,7 +57,7 @@ const Experience = () => {
                 <h4>Certifications</h4>
                 <ul>
                     <li>Google Data Analytics by Google.</li>
-                    <li>Python for Data Science, AI and Development</li>
+                    <li>IBM Data Science</li>
                 </ul>
             </div>
 
