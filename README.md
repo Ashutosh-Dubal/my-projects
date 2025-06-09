@@ -41,5 +41,5 @@ App.js                # Main app routing file
 
 ## 📬 Contact
 
-Feel free to reach out via the Contact Me page on the website!
+Feel free to reach out via the [Contact Me](https://adubal.com/tempContactMe) page on the website!
 
