@@ -32,6 +32,13 @@ const Data = ({ title, content, pdfLink }) => {
     return (
       <div className="show-more">
         <ol>
+
+        <Data
+                title="Toronto Housing Analysis"
+                content={'This project explores the key factors that influence residential housing prices in Toronto, using data scraped from Zolo.ca and meticulously cleaned for analysis. The goal is to uncover trends, patterns, and relationships between price and features such as square footage, number of bedrooms, bathrooms, and more.'}
+                pdfLink='https://github.com/Ashutosh-Dubal/Toronto-housing-analysis'
+          />
+
           <Data
                 title="IMDb Top TV Shows Scraper"
                 content={'This Python project scrapes IMDb\'s Top Rated TV Shows, extracts key information like title, year, rating, and genres, and saves the data to a CSV file for further analysis or use in other projects.'}
@@ -55,7 +62,8 @@ const Data = ({ title, content, pdfLink }) => {
             significant.`}
             pdfLink='https://github.com/Ashutosh-Dubal/CDC-Nutrition-Analysis'
           />
-  
+
+
         </ol>
       </div>
     );
