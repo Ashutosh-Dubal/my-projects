@@ -27,15 +27,13 @@ You can view the live site here: [https://adubal.com](https://adubal.com)
 
 ## 📁 Project Structure
 
+```
 src/
-
 ├── components/       # Reusable UI components (e.g., Layout)
-
 ├── routes/           # Pages/routes (e.g., HomePage, AboutPage, etc.)
-
 ├── Styling/          # CSS styles
-
 App.js                # Main app routing file
+```
 
 ---
 
