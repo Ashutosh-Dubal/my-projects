@@ -40,6 +40,12 @@ const Data = ({ title, content, pdfLink }) => {
           />
 
           <Data
+          title="Housing Price Advance Regression"
+          content={'This repository contains my end-to-end solution for the Kaggle competition House Prices - Advanced Regression Techniques. The project involves predicting the final sale price of homes using various advanced regression techniques and ensemble models.'}
+          pdfLink='https://github.com/Ashutosh-Dubal/Housing-Prices-Advance-Regression'
+          />
+
+          <Data
           title="Toronto Housing Analysis"
           content={'This project explores the key factors that influence residential housing prices in Toronto, using data scraped from Zolo.ca and meticulously cleaned for analysis. The goal is to uncover trends, patterns, and relationships between price and features such as square footage, number of bedrooms, bathrooms, and more.'}
           pdfLink='https://github.com/Ashutosh-Dubal/Toronto-housing-analysis'
