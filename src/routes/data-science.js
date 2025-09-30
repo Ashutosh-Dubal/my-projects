@@ -35,44 +35,32 @@ const Data = ({ title, content, pdfLink }) => {
 
           <Data
           title="Toronto Bike Share Ridership Analysis"
-          content={'This project analyzes ridership patterns of Toronto’s public bike-sharing system using open data provided by the City of Toronto. Through exploratory data analysis (EDA), trip duration breakdowns, clustering, and spatial usage analysis, we aim to uncover user behaviour trends, system usage hotspots, and potential operational challenges.'}
-          pdfLink='https://github.com/Ashutosh-Dubal/bike-share-analysis'
+          content="This project analyzes ridership patterns of Toronto’s public bike-sharing system using open data provided by the City of Toronto. Through exploratory data analysis (EDA), trip duration breakdowns, clustering, and spatial usage analysis, we aim to uncover user behaviour trends, system usage hotspots, and potential operational challenges."
+          pdfLink="https://github.com/Ashutosh-Dubal/bike-share-analysis"
           />
 
           <Data
           title="Housing Price Advance Regression"
-          content={'This repository contains my end-to-end solution for the Kaggle competition House Prices - Advanced Regression Techniques. The project involves predicting the final sale price of homes using various advanced regression techniques and ensemble models.'}
-          pdfLink='https://github.com/Ashutosh-Dubal/Housing-Prices-Advance-Regression'
-          />
-
-          <Data
-          title="Toronto Housing Analysis"
-          content={'This project explores the key factors that influence residential housing prices in Toronto, using data scraped from Zolo.ca and meticulously cleaned for analysis. The goal is to uncover trends, patterns, and relationships between price and features such as square footage, number of bedrooms, bathrooms, and more.'}
-          pdfLink='https://github.com/Ashutosh-Dubal/Toronto-housing-analysis'
+          content="This repository contains my end-to-end solution for the Kaggle competition House Prices - Advanced Regression Techniques. The project involves predicting the final sale price of homes using various advanced regression techniques and ensemble models."
+          pdfLink="https://github.com/Ashutosh-Dubal/Housing-Prices-Advance-Regression"
           />
 
           <Data
           title="IMDb Top TV Shows Scraper"
-          content={'This Python project scrapes IMDb\'s Top Rated TV Shows, extracts key information like title, year, rating, and genres, and saves the data to a CSV file for further analysis or use in other projects.'}
-          pdfLink='https://github.com/Ashutosh-Dubal/imdb-tv-show-scraper'
+          content="This Python project scrapes IMDb's Top Rated TV Shows, extracts key information like title, year, rating, and genres, and saves the data to a CSV file for further analysis or use in other projects."
+          pdfLink="https://github.com/Ashutosh-Dubal/imdb-tv-show-scraper"
+          />
+
+          <Data
+          title="Toronto Housing Analysis"
+          content="This project explores the key factors that influence residential housing prices in Toronto, using data scraped from Zolo.ca and meticulously cleaned for analysis. The goal is to uncover trends, patterns, and relationships between price and features such as square footage, number of bedrooms, bathrooms, and more."
+          pdfLink="https://github.com/Ashutosh-Dubal/CDC-Nutrition-Analysis"
           />
 
           <Data
           title="Regression Analysis of CDC Guidelines on Muscle-Strengthening Activity"
-          content={`Adult obesity has been a long and growing issue in the United States 
-            (US) with some calling it an "obesity epidemic". The US Centers for Disease 
-            Control and Prevention (CDC) publishes guidelines on both the amount of moderate 
-            intensive activity and muscle-strengthening activity required for adults to 
-            mitigate the risks associated with obesity. In this analysis, we investigate 
-            the effects of year, state/district of residence, and age on the proportion of 
-            adults that satisfy CDC guidelines on muscle-strengthening activity. We 
-            performed an exploratory analysis to visualize the distribution of the data, 
-            conducted modelling using ordinary least squares and stepwise regression with 
-            10-fold cross-validation for model selection, and carried out residual analysis. 
-            An ordinary least squares model was developed that explained 88% of the 
-            variability, and all three factors of interest were shown to be statistically 
-            significant.`}
-          pdfLink='https://github.com/Ashutosh-Dubal/CDC-Nutrition-Analysis'
+          content="Adult obesity has been a long and growing issue in the United States (US) with some calling it an 'obesity epidemic'. The US Centers for Disease Control and Prevention (CDC) publishes guidelines on both the amount of moderate intensive activity and muscle-strengthening activity required for adults to mitigate the risks associated with obesity. In this analysis, we investigate the effects of year, state/district of residence, and age on the proportion of adults that satisfy CDC guidelines on muscle-strengthening activity. We performed an exploratory analysis to visualize the distribution of the data, conducted modelling using ordinary least squares and stepwise regression with 10-fold cross-validation for model selection, and carried out residual analysis. An ordinary least squares model was developed that explained 88% of the variability, and all three factors of interest were shown to be statistically significant."
+          pdfLink="https://github.com/Ashutosh-Dubal/CDC-Nutrition-Analysis"
           />
 
 
