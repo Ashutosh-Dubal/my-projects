@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import '../Styling/Project.css'
 
-import WebDev from './web-dev';
+// import WebDev from './web-dev';
 import Mathematical from './mathematical';
 import DataScience from './data-science';
 

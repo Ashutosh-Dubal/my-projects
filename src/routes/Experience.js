@@ -31,11 +31,11 @@ const Experience = () => {
         },
     ];
 
-    const skills = [
-        {name: 'Mathematics', percentage: 75},
-        {name: 'Statistics', percentage: 80},
-        {name: 'Programming', percentage: 70},
-    ];
+    // const skills = [
+    //     {name: 'Mathematics', percentage: 75},
+    //     {name: 'Statistics', percentage: 80},
+    //     {name: 'Programming', percentage: 70},
+    // ];
 
   return (
     <div className="experience">
