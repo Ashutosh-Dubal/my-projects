@@ -17,7 +17,7 @@ import InfosysJob from '../routes/infosys-job';
 import AnalyticsNow from '../routes/analytics-now-editor';
 import CouncilRep from '../routes/council-representative';
 import Projects from '../routes/projects';
-import WebDev from '../routes/web-dev';
+// import WebDev from '../routes/web-dev';
 import DataScience from '../routes/data-science';
 import Mathematical from '../routes/mathematical';
 import CourseWork from '../routes/course-work';
@@ -42,7 +42,7 @@ function App() {
           <Route path="experience/council-representative" element={<CouncilRep />} />
 
           <Route path="projects/*" element={<Projects />} />
-          <Route path="projects/web-dev" element={<WebDev />} />
+          {/* <Route path="projects/web-dev" element={<WebDev />} /> */}
           <Route path="projects/data-science" element={<DataScience />} />
           <Route path="projects/mathematical" element={<Mathematical />} />
           

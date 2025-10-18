@@ -12,13 +12,13 @@ const Projects = () => {
     <>
       <div className="category-container">
         <Link to="data-science" className="dataAnalytics">Data Science</Link>
-        <Link to="web-dev" className="webDev">Web Development</Link>
+        {/* <Link to="web-dev" className="webDev">Web Development</Link> */}
         <Link to="mathematical" className="math">Mathematical</Link>
       </div>
 
       <Routes>
         <Route path="/data-science" element={<DataScience />} />
-        <Route path="/web-dev" element={<WebDev />} />
+        {/* <Route path="/web-dev" element={<WebDev />} /> */}
         <Route path="/mathematical" element={<Mathematical />} />
       </Routes>
     </>

@@ -9,7 +9,7 @@ const Experience = () => {
 
     const jobs = [
         {
-            title: 'Assocate Developer',
+            title: 'Senior Assocate Developer',
             company: 'Infosys',
             date: '2022 - 2025',
             content: 'This is content for tile 1',
@@ -39,7 +39,7 @@ const Experience = () => {
 
   return (
     <div className="experience">
-        <div className="sidebar" style={{position: 'fixed'}}>
+        {/* <div className="sidebar" style={{position: 'fixed'}}>
             
             <div className='skills-whole'>
                 <h4>Skills</h4>
@@ -61,7 +61,7 @@ const Experience = () => {
                 </ul>
             </div>
 
-        </div>
+        </div> */}
         
         <div className="tiles-container">
             {jobs.map((job) => (
